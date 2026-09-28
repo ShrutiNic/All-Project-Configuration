@@ -1,0 +1,125 @@
+title = "uCommander"
+version = "0.4.0"
+image1_withbackground = 'C:\Aepl_Logo'
+image2_withoutbackground = 'C:\Aepl_Logo'
+
+[[projects]]
+name = "Sampark"
+ecu_id = 0x0CDAF133
+tester_id = 0x0CDA33F1
+nai_protocol = "PUDS_MSGPROTOCOL_ISO_15765_2_29B_NORMAL"
+can_network = "CAN_2_0"
+bit_rate = "250Kbps"
+sequence = 0
+security = "AES128"
+session = 0x60
+requires = []
+
+[[projects]]
+name = "ATCU - 29 bit"
+ecu_id = 0x1BDAF1FB
+tester_id = 0x1BDAFBF1
+nai_protocol = "PUDS_MSGPROTOCOL_ISO_15765_2_29B_NORMAL"
+can_network = "CAN_FD"
+bit_rate = "250Kbps"
+sequence = 0
+security = "XOR"
+session = 0x03
+requires = []
+
+[[projects]]
+name = "A2T - 11bit"
+ecu_id = 0x72E
+tester_id = 0x726
+nai_protocol = "PUDS_MSGPROTOCOL_ISO_15765_2_11B_NORMAL"
+can_network = "CAN_2_0"
+bit_rate = "500Kbps"
+sequence = 0
+security = "AES128"
+session = 0x60
+requires = []
+
+[[projects]]
+name = "TCU 2G"
+ecu_id = 0x1BDAF1FB
+tester_id = 0x1BDAFBF1
+nai_protocol = "29B_NORMAL"
+can_network = "CAN_2_0"
+bit_rate = "500Kbps"
+sequence = 0
+security = "AES128"
+session = 0x60
+requires = []
+
+[[projects]]
+name = "A2T - 29bit"
+ecu_id = 0x1BDAF1FB
+tester_id = 0x1BDAFBF1
+nai_protocol = "29B_FIXED_NORMAL"
+can_network = "CAN_2_0"
+bit_rate = "500Kbps"
+sequence = 0
+security = "AES128"
+session = 0x60
+requires = []
+
+[[projects]]
+name = "Swaraj"
+ecu_id = 0x0CDAF133
+tester_id = 0x0CDA33F1
+nai_protocol = "29B_NORMAL"
+can_network = "CAN_2_0"
+bit_rate = "250Kbps"
+sequence = 0
+security = "AES128"
+session = 0x60
+requires = []
+
+[[projects]]
+name = "Treo"
+ecu_id = 0x18DAF1A2
+tester_id = 0x18DAA2F1
+nai_protocol = "PUDS_MSGPROTOCOL_ISO_15765_2_29B_NORMAL"
+can_network = "CAN_2_0"
+bit_rate = "500Kbps"
+sequence = 0
+security = "AES128"
+session = 0x60
+requires = []
+
+
+[[projects]]
+name = "DMS"
+ecu_id = 0x628          
+tester_id = 0x620
+nai_protocol = "PUDS_MSGPROTOCOL_ISO_15765_2_11B_NORMAL"
+can_network = "CAN_FD"
+bit_rate = "500Kbps/2Mbps"  # Arbitration/Data phase
+sequence = 0
+security = "AES128"
+session = 0x60
+requires = []
+
+[[projects]]
+name = "Tarang - 29bit"
+ecu_id = 0x0CDAF133
+tester_id = 0x0CDA33F1
+nai_protocol = "PUDS_MSGPROTOCOL_ISO_15765_2_29B_NORMAL"
+can_network = "CAN_2_0"
+bit_rate = "250Kbps"
+sequence = 0
+security = "AES128"
+session = 0x60
+requires = []
+
+[[projects]]
+name = "Tarang - 11bit"
+ecu_id = 0x72E
+tester_id = 0x726
+nai_protocol = "11B_NORMAL"
+can_network = "CAN_2_0"
+bit_rate = "250Kbps"
+sequence = 0
+security = "AES128"
+session = 0x60
+requires = []

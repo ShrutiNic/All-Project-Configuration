@@ -1,0 +1,13 @@
+{
+  "pub_topic": "ACCO/20/{imei}/PUB",
+  "alert_topic": "ACCO/20/{imei}/ALERT",
+  "base_url": "http://aepltest.accoladeelectronics.com/treo/getTreoData?topic=",
+
+  "variants": {
+    "T380": "TREO_T380_CAN_DBC_V0.2.dbc",
+    "ZEO": "TREO_ZEO_CAN_DBC_V0.2.dbc",
+    "T350": "TREO_T350_T305_CAN_DBC_V0.2.dbc",
+    "A301": "TREO_T380_CAN_DBC_V0.2.dbc",
+    "MultiFraming": "trio_debug_signals_new.dbc"
+  }
+}
